@@ -1,7 +1,0 @@
-README.md
-setup.py
-append_files_pip.egg-info/PKG-INFO
-append_files_pip.egg-info/SOURCES.txt
-append_files_pip.egg-info/dependency_links.txt
-append_files_pip.egg-info/not-zip-safe
-append_files_pip.egg-info/top_level.txt
